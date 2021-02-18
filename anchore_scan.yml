@@ -1,5 +1,5 @@
 - name: anchore-cli scan
-  hosts: localhost
+  hosts: ubuntu
   become: yes
   vars:
     scan_image_name: "docker.io/library/ubuntu:latest"
